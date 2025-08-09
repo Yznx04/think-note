@@ -26,6 +26,12 @@ plugins:
   - blog
   - search
 
+extra:
+  analytics:
+    provider: google
+    property: G-NCEL1B5PP3
+
+
 markdown_extensions:
 
   # Python Markdown
