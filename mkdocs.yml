@@ -1,4 +1,8 @@
 site_name: 小哥的数字花园
+site_url: https://github.com/Yznx04/think-note
+repo_name: Yznx04/think-note
+repo_url: https://github.com/Yznx04/think-note
+
 theme:
   name: material
   language: zh
@@ -18,13 +22,24 @@ theme:
     - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.indexes
+    - navigation.footer
     - navigation.top
     - toc.follow
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+  icon:
+    repo: fontawesome/brands/github-alt
 
 plugins:
-  - blog
-  - search
+  - search:
+      lang: zh
+  - blog:
+      post_date_format: medium
+
 
 extra:
   analytics:
