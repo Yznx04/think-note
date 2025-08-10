@@ -3,5 +3,6 @@ name = "think-note"
 version = "0.1.0"
 requires-python = ">=3.12"
 dependencies = [
+    "mkdocs-git-revision-date-localized-plugin>=1.4.7",
     "mkdocs-material>=9.6.16",
 ]

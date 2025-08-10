@@ -39,6 +39,8 @@ plugins:
       lang: zh
   - blog:
       post_date_format: medium
+  - git-revision-date-localized:
+      enable_creation_date: true
 
 
 extra:
